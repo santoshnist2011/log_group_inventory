@@ -50,9 +50,9 @@ etc.
 
 ## **Excel File Format**
 The generated Excel file contains the following columns:
-| Log Group Name | Region | Account ID | ARN | Log Class | Retention Period | Stored Bytes | Stored Bytes (Formatted) | Creation Time |
+| Region | Account ID | Log Group Name | ARN | Log Class | Retention | Stored Bytes | Creation Time |
 |---------------|--------|------------|-----|-----------|------------------|--------------|---------------------|---------------|
-| example-log-group | us-east-1 | 123456789 | arn:aws:logs:... | Standard | 30 days | 1500000 | 1.5 MB | 2025-05-20 12:25:00 |
+| us-east-1 | 123456789 | example-log-group | arn:aws:logs:... | Standard | 30 days | 1.5 MB | 2025-05-20 12:25:00 |
 
 ## **Error Handling**
 - If a region fails to fetch log groups, it will log the error without stopping execution.
