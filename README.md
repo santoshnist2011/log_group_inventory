@@ -51,7 +51,7 @@ etc.
 ## **Excel File Format**
 The generated Excel file contains the following columns:
 | Region | Account ID | Log Group Name | ARN | Log Class | Retention | Stored Bytes | Creation Time |
-|---------------|--------|------------|-----|-----------|------------------|--------------|---------------------|---------------|
+|---------------|--------|------------|-----|-----------|------------------|--------------|---------------------|
 | us-east-1 | 123456789 | example-log-group | arn:aws:logs:... | Standard | 30 days | 1.5 MB | 2025-05-20 12:25:00 |
 
 ## **Error Handling**
